@@ -33,11 +33,11 @@ function TeleportSea(sea)
         end
     elseif sea == 2 then
         if not game.PlaceId == 4442272183 then
-            RS.Remotes.CommF_:InvokeServer("TravelDressrosa")
+            game.ReplicatedStorage.Remotes.CommF_:InvokeServer("TravelDressrosa")
         end
     elseif sea == 3 then
         if not game.PlaceId == 7449423635 then
-            RS.Remotes.CommF_:InvokeServer("TravelZou")
+            game.ReplicatedStorage.Remotes.CommF_:InvokeServer("TravelZou")
         end
     end
 end
